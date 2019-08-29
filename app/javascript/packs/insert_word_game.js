@@ -8,6 +8,10 @@ const gameSessionId = form.dataset.gameSessionId;
 const inputs = document.querySelectorAll('input');
 
 inputs.forEach((input) => {
+  input.onkeypress = function(e){
+    const munkesnaps = document.getElementById('munkesnaps');
+    munkesnaps.innerHTML = `${e.key} - ${e.keyCode} `;
+  }
   input.addEventListener('blur', (event) => {
     const guess = event.currentTarget.value;
     const answer = event.currentTarget.dataset.answer;
