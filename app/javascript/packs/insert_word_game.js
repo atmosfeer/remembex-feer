@@ -4,13 +4,20 @@ function checkForm() {
 }
 
 const form = document.getElementById("insert_word_game_form");
+form.addEventListener("submit", function(event){
+  event.preventDefault()
+});
+
 const gameSessionId = form.dataset.gameSessionId;
 const inputs = document.querySelectorAll('input');
 
 inputs.forEach((input) => {
   input.onkeypress = function(e){
-    const munkesnaps = document.getElementById('munkesnaps');
-    munkesnaps.innerHTML = `${e.key} - ${e.keyCode} `;
+    const wordNumber = parseInt(e.currentTarget.id.match(/\d+/)[0], 10);
+    if (e.keyCode === 13) {
+      const nextInput = document.getElementById("word" + (wordNumber + 1))
+      nextInput.focus();
+    }
   }
   input.addEventListener('blur', (event) => {
     const guess = event.currentTarget.value;
