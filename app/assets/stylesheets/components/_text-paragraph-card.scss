@@ -1,0 +1,233 @@
+.white-link {
+  z-index: 2;
+  position: absolute;
+  left: -54px;
+  bottom: 5%;
+}
+
+/*   border-color: #6666FF;
+*/
+
+
+.text-card-solid-border {
+  position: relative;
+  border-style: solid;
+  padding: 7%;
+  margin-top: 5%;
+  border-radius: 0 14px 14px 0;
+  border-width: 1px 1px 1px 68px;
+  border-color: #E3E4EB;
+  background-color: white;
+  box-shadow: -1px 2px 10px 1px rgba(0, 0, 0, 0.2);
+  z-index: 0;
+}
+
+.text-card-solid-border p {
+  padding-bottom: 50px;
+}
+.link-to-single-text-paragraph {
+  font-size: 30px;
+  position: absolute;
+  right: -36px;
+  bottom: 46%;
+  margin: 0;
+}
+
+.title {
+  font-size: 1.4rem;
+  padding-top: 1rem;
+}
+
+.text-content {
+  font-size: 32px;
+  margin-bottom: 1.5rem;
+}
+.user-command {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+.done-or-not-icon {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.first-row-content {
+  height: 124px;
+  width: 100%;
+  background-color: transparent;
+  padding: 0px 20px;
+  h1 {
+    margin: 0px;
+  }
+}
+/*   color: #5151CC; eller   color: white;*/
+.card-number-integer {
+  color:  #963BEE;
+  position: absolute;
+  top: 1.8rem;
+  left: -44px;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.back-button {
+  width: 48px;
+}
+
+.back-text {
+  font-size: 20px;
+}
+
+.first-row-content-back-button {
+  display:flex;
+  color: #6666FF;
+}
+
+.first-row-content-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.2rem;
+}
+
+.header-text {
+  color: #5151CC;
+}
+/*
+.not-done-icon {
+  font-size: 36px;
+  color: #FF6B6B;
+  position: absolute;
+  left: -36px;
+  bottom: 5%;
+}*/
+/* color: black;
+  opacity: 0.5; */
+.text-card-link {
+  color: #c1c3d3;
+
+
+}
+
+.back {
+  margin-left: 0;
+}
+
+.feature-image-paragraphs {
+  background-image: url(images/feature-paragraphs-image.jpg);
+}
+.green-icon {
+  color: #4CCC91;
+}
+
+.red-icon {
+  color: #FF6B6B;
+}
+.white-icon-bg{
+  width: 36px;
+  height: 36px;
+  background-color: white;
+  border-radius: 50%;
+
+}
+.background-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 60px;
+  position: absolute;
+  left: -54px;
+  bottom: 5%;
+}
+.move-me {
+}
+.list-inline .read-listen {
+  background-color: #a29bfe;
+  border: none;
+  color: white;
+  padding: 4px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px 4px 4px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.to-game-one-button {
+  background-color: #a29bfe;
+  border: none;
+  color: white;
+  padding: 4px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 12px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.to-game-two-button {
+  background-color: #0055FF;
+  border: none;
+  color: white;
+  padding: 4px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 20px 4px 0;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.to-listen-to-button {
+  background-color: #33CCCC;
+  border: none;
+  color: white;
+  padding: 4px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 12px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.to-game-one-button:hover  {
+  color: white;
+}
+
+.to-listen-to-button:hover {
+   color: white;
+}
+.game-options {
+  font-size: 16px;
+  position: absolute;
+  bottom: 5%;
+  left: 40px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.read-listen-options {
+  font-size: 16px;
+  position: absolute;
+  bottom: 5%;
+  right: 40px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.background-gradient {
+  background: linear-gradient(#e8e7ff, #9198e5);
+  margin: 0;
+}
+
+.text-paragraphs-index-background {
+  background: #6190E8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #efeef8, #d8d5ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #dff9fb, #dfe6e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

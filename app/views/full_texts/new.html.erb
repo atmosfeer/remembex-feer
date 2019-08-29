@@ -1,0 +1,34 @@
+
+
+    <div class="add-new-text-navbar">
+
+        <%= link_to full_texts_path, class:"btn-go-back-from-adding" do %>
+        <%= image_tag "arrow-white.png" %>
+        <% end %>
+
+        <h1><%= "add your text" %></h1>
+
+        <img class="avatar-adding-page" alt="avatar-large" src="https://kitt.lewagon.com/placeholder/users/cveneziani">
+
+
+
+
+    </div>
+    <div class="create_full_text_form">
+
+
+    <%= simple_form_for @full_text do |f| %>
+      <div class="form-inputs">
+        <%= f.input :title %>
+        <%= simple_fields_for :other do |o| %>
+          <%= o.input :content, as: :text, label: 'Content' %>
+        <% end %>
+      </div>
+
+      <div class="form-actions">
+        <%= f.button :submit, "Save", class: "create_text_button" %>
+      </div>
+    <% end %>
+  </div>
+</div>
+
